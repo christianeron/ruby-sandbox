@@ -1,6 +1,7 @@
-a = :GOODBYE
-if a.class == Symbol
-  pp "aa"
-else
-  pp "bb"
+class TwoFer
+  def two_fer(name = "you")
+    "One for #{name}, one for me."
+  end
 end
+
+pp TwoFer.two_fer("Alice")
